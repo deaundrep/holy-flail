@@ -3,9 +3,11 @@
 }
 
 #app {
+  display: flex;
   font-size: 5em;
   text-align: center;
   height: 100vh;
+  flex-direction: column;
 }
 
 #header {
@@ -15,11 +17,13 @@
 }
 
 #middle {
+  display: flex;
   height: 60vh;
   width: 100vw;
 }
 
 #main {
+  display: flex;
   width: 80%;
 }
 
@@ -43,3 +47,5 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+
